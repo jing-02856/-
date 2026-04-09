@@ -1,2 +1,2 @@
-# -
+git clone --depth 1 --filter=blob:none --sparse https://github.com/liangjfblue/huaxia-wisdom.git $env:TEMP/huaxia-wisdom; cd $env:TEMP/huaxia-wisdom; git sparse-checkout set SKILL.md references; New-Item -ItemType Directory -Force -Path "$env:USERPROFILE/.claude/skills/huaxia-wisdom"; Copy-Item SKILL.md references "$env:USERPROFILE/.claude/skills/huaxia-wisdom"; Remove-Item -Recurse -Force $env:TEMP/huaxia-wisdom# -
 0
